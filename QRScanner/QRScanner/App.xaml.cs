@@ -1,4 +1,5 @@
 ﻿using QRScanner.Models;
+using QRScanner.Views;
 using QRScanner.Repositories;
 using System;
 using Xamarin.Forms;

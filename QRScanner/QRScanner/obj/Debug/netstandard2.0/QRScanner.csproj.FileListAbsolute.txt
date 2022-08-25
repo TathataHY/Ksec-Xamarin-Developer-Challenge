@@ -1,0 +1,17 @@
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.csproj.AssemblyReference.cache
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.AssemblyInfoInputs.cache
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.AssemblyInfo.cs
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.csproj.CoreCompileInputs.cache
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\bin\Debug\netstandard2.0\QRScanner.deps.json
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\bin\Debug\netstandard2.0\QRScanner.dll
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\bin\Debug\netstandard2.0\ref\QRScanner.dll
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\bin\Debug\netstandard2.0\QRScanner.pdb
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.csproj.Fody.CopyLocal.cache
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.csproj.Fody.RuntimeCopyLocal.cache
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.dll
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\ref\QRScanner.dll
+C:\Development\Practice\Ksec\GitHub\QRScanner\QRScanner\obj\Debug\netstandard2.0\QRScanner.pdb
