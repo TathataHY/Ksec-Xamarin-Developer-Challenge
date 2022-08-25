@@ -52,6 +52,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2515, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           }
         }
@@ -121,6 +129,10 @@
               "target": "Package",
               "version": "[3.4.1, )"
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.3, )"
@@ -128,6 +140,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2515, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

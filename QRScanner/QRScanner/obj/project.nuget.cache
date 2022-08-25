@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "daqAKxOYBmarh1nVkJe3knxowaCNCFXKNcB/zX0IKf4leIa2Q3N2d6YDsNTtfAtgxrTe19XamTrLGX+Txcl8nQ==",
+  "dgSpecHash": "sxRCUBJYD7eZ63VFcsNVWFh7bSK0uYKSv1a05oJQryTfMXDxZizd+tzHSxS5fqbh6myn5NVv2RAmHazSspnQEA==",
   "success": true,
   "projectFilePath": "C:\\Development\\Practice\\Ksec\\GitHub\\QRScanner\\QRScanner\\QRScanner.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,9 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

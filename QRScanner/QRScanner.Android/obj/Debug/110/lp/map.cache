@@ -103,3 +103,6 @@ androidx.navigation.navigation-common.aar
 androidx.navigation.navigation-runtime.aar
 androidx.navigation.navigation-ui.aar
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+FastAndroidCamera.dll
+ZXingNetMobile.dll
+ZXing.Net.Mobile.Forms.Android.dll

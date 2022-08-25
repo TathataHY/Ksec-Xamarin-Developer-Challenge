@@ -8,6 +8,15 @@
           "build/_._": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.4.1": {
         "type": "package",
         "dependencies": {
@@ -33,6 +42,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/SQLite-net.dll": {}
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
@@ -254,13 +276,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "QRScanner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "PropertyChanged.Fody": "3.4.1",
+          "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -278,6 +331,15 @@
           "build/_._": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.4.1": {
         "type": "package",
         "dependencies": {
@@ -303,6 +365,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/SQLite-net.dll": {}
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
@@ -524,13 +599,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "QRScanner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "PropertyChanged.Fody": "3.4.1",
+          "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -548,6 +654,15 @@
           "build/_._": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.4.1": {
         "type": "package",
         "dependencies": {
@@ -573,6 +688,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/SQLite-net.dll": {}
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
@@ -794,13 +922,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "QRScanner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "PropertyChanged.Fody": "3.4.1",
+          "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -818,6 +977,15 @@
           "build/_._": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.4.1": {
         "type": "package",
         "dependencies": {
@@ -843,6 +1011,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/SQLite-net.dll": {}
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
@@ -1064,13 +1245,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll": {},
+          "lib/Xamarin.iOS10/ZXingNetMobile.dll": {},
+          "lib/Xamarin.iOS10/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll": {},
+          "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll": {}
+        }
+      },
       "QRScanner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "PropertyChanged.Fody": "3.4.1",
+          "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.7.3",
           "Xamarin.Forms": "5.0.0.2515",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1116,6 +1328,33 @@
         "netstandardtask/Mono.Cecil.pdb"
       ]
     },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "PropertyChanged.Fody/3.4.1": {
       "sha512": "e0BVdf9bFdjvOMEcYff5jUdvMC36ioHN1Lp7bW1bz0Qjg3rqsfCUhaaIu+K7R9TKBGeX7PlfqAeMqKyrD9cBXw==",
       "type": "package",
@@ -1151,6 +1390,35 @@
         "lib/netstandard2.0/SQLite-net.xml",
         "sqlite-net-pcl.1.8.116.nupkg.sha512",
         "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLiteNetExtensions/2.1.0": {
+      "sha512": "oiyhVxCi7M2nr3tI6h05jdHGT0HKW6GxMNKUiO04zWAxv42MHtX12c4tW67w6VqGwcnXj1bwyTpq9P0W8QoGYQ==",
+      "type": "package",
+      "path": "sqlitenetextensions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/SQLiteNetExtensions.dll",
+        "lib/netstandard1.1/SQLiteNetExtensions.pdb",
+        "sqlitenetextensions.2.1.0.nupkg.sha512",
+        "sqlitenetextensions.nuspec",
+        "src/SQLiteNetExtensions/Attributes/CascadeOperation.cs",
+        "src/SQLiteNetExtensions/Attributes/ForeignKeyAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/ManyToManyAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/ManyToOneAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/OneToManyAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/OneToOneAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/RelationshipAttribute.cs",
+        "src/SQLiteNetExtensions/Attributes/TextBlobAttribute.cs",
+        "src/SQLiteNetExtensions/Exceptions/IncorrectRelationshipException.cs",
+        "src/SQLiteNetExtensions/Extensions/ReadOperations.cs",
+        "src/SQLiteNetExtensions/Extensions/ReflectionExtensions.cs",
+        "src/SQLiteNetExtensions/Extensions/TextBlob/ITextBlobSerializer.cs",
+        "src/SQLiteNetExtensions/Extensions/TextBlob/Serializers/JsonBlobSerializer.cs",
+        "src/SQLiteNetExtensions/Extensions/TextBlob/TextBlobOperations.cs",
+        "src/SQLiteNetExtensions/Extensions/WriteOperations.cs",
+        "src/SQLiteNetExtensions/Properties/AssemblyInfo.cs"
       ]
     },
     "SQLitePCLRaw.bundle_green/2.0.4": {
@@ -1571,6 +1839,50 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
+    },
     "QRScanner/1.0.0": {
       "type": "project",
       "path": "../QRScanner/QRScanner.csproj",
@@ -1581,7 +1893,9 @@
     "Xamarin.iOS,Version=v1.0": [
       "QRScanner >= 1.0.0",
       "Xamarin.Essentials >= 1.7.3",
-      "Xamarin.Forms >= 5.0.0.2515"
+      "Xamarin.Forms >= 5.0.0.2515",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -1637,6 +1951,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2515, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         }
       }

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "DWlym1pcAWFFLR3p4ZCQY9d66cb4BuQo+smYt6B4S5Xv2zDaFV+9Uclc5Qzbkn59wWd8Ik3O9l5LXB1UGjqUXg==",
+  "dgSpecHash": "Ukp8ox2VsXvF8yTFIDGmqpRmI9Q49AU24rBek9VDAG0ZyG1u6CDkmYN6Dky0xy4yUuatyZCr5BG5v8cV3DQaXg==",
   "success": true,
   "projectFilePath": "C:\\Development\\Practice\\Ksec\\GitHub\\QRScanner\\QRScanner.Android\\QRScanner.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\fody\\6.6.2\\fody.6.6.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\propertychanged.fody\\3.4.1\\propertychanged.fody.3.4.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
@@ -15,6 +18,13 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.annotations\\25.4.0.2\\xamarin.android.support.annotations.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.compat\\25.4.0.2\\xamarin.android.support.compat.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.core.ui\\25.4.0.2\\xamarin.android.support.core.ui.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.core.utils\\25.4.0.2\\xamarin.android.support.core.utils.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.fragment\\25.4.0.2\\xamarin.android.support.fragment.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.media.compat\\25.4.0.2\\xamarin.android.support.media.compat.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.android.support.v4\\25.4.0.2\\xamarin.android.support.v4.25.4.0.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",
@@ -71,7 +81,9 @@
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -34,5 +34,7 @@
     <string>QRScanner</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>Privacy - Camera Usage Description</key>
+	<string>This app wants to scan qrcode</string>
 </dict>
 </plist>

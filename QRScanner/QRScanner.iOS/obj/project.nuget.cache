@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3pg7JXItwRh5KwlnCfW38G7ToQ58SiYg/hblgqEWoEubyKatAl1uB2z4fKniDoGmkD/78zuDfvi3bWaGljJG9Q==",
+  "dgSpecHash": "CF52TxNrQryR2MPpHEFP9Ouare/yuhJ+E/jF4EBumRWZX+39kNBVd+Tv3LvnE6c+ShSL+kc0vXBnn1CZjYKmBg==",
   "success": true,
   "projectFilePath": "C:\\Development\\Practice\\Ksec\\GitHub\\QRScanner\\QRScanner.iOS\\QRScanner.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\fody\\6.6.2\\fody.6.6.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\propertychanged.fody\\3.4.1\\propertychanged.fody.3.4.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
@@ -15,7 +17,9 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
